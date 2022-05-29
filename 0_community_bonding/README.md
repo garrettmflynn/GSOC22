@@ -7,6 +7,8 @@
 3. Fixed service worker registration to check the network for new updates
 4. Completed the first draft of a *bids2bids* conversion for adding expected files and reformatting directories / filenames to conform with the BIDS standard.
     - One known issue is that it doesn't change metadata within files (e.g. scan files, where there may be a reference to a file that has now been renamed)
+5. Listened to the EEGLab presentation shared by Pedro
+5. Renamed the project from `artifact` to `ged` to reflect the broader goals of the Global EEG Norms project.
 
 
 ## May 28th, 2022
