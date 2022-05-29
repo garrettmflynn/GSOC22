@@ -1,2 +1,2 @@
 # Final Week
-September 5 - September 12
+**September 5 - September 12**

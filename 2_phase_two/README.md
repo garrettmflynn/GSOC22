@@ -1,2 +1,2 @@
 # Phase Two
-July 25 - September 4
+**July 25 - September 4**

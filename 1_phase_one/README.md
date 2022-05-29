@@ -1,2 +1,2 @@
 # Phase One
-June 13 - July 25th
+**June 13 - July 25th**
