@@ -1,6 +1,39 @@
 # Community Bonding Period
 **May 20 - June 12**
 
+## June 2nd. 2022
+1. List artifacts instead of annotate the names directly on the plot
+    - Can also show/hide and the button will highlight the artifact when you hover it!
+2. Fixed tiny bug where a cached tag that does not exist will not allow you to annotate (which stopped the meeting demo last night...)
+3. 
+
+## June 1st. 2022
+1. Created an IterativeFile that allows for loading data from the file buffer only when it is needed.
+    - This results in a 800x improvement in export speed because we can avoid recompressing .nii files
+
+### Meeting #2 with Mentors
+1. Can we repurpose the AnyWave software or simply use it as a model?
+2. What are the benefits of a dedicated server (NAS) for this particular project?
+
+
+## May 31st, 2022
+1. Fixed getDirectory (again...) where we can take a shortcut to the correct directory given a filename rather than searching the whole file tree.
+2. Created a simplified UI that shows the first channel of an EDF file.
+
+## May 30th, 2022
+1. Lots of reading about EEG-BIDS and HED tags.
+2. Experimentation with EEG2BIDS tool
+    - It doesn't let me convert because "No EDF file selected"...
+3. Place HED annotation in BIDS files!
+    - **Issue:** The `bids-validator` throws an error about the tags since they're part of a library—and I don't know how to load a lib...
+4. Fix EDF file exporting
+5. Export, reload, and display HED annotations!
+    - **Note:** Arbitrarily only showing those under the `artifact` header..
+6. Removed the assumption that we need ses- subdirectories...
+    - Note: This will still be useful to add with more than one session—but not now. It requires us to update a *lot* of metadata.
+
+7. Generalized getting sidecars from the BIDSDataset class.
+
 ## May 29th, 2022
 1. Shared the project with EEGLab and HED people that Pedro connected me with via email
 2. Allow for free text specification on loaded HED schemas
