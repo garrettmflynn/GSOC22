@@ -5,7 +5,9 @@
 1. List artifacts instead of annotate the names directly on the plot
     - Can also show/hide and the button will highlight the artifact when you hover it!
 2. Fixed tiny bug where a cached tag that does not exist will not allow you to annotate (which stopped the meeting demo last night...)
-3. 
+3. Developed a basic stacked plot with support for selective montage viewing
+    - Tried to support relayout when toggling lines on/off in the legend (i.e. as a montage selector), but it didn't work the way that was expected
+    - Also cannot overlay subplots because they have a background
 
 ## June 1st. 2022
 1. Created an IterativeFile that allows for loading data from the file buffer only when it is needed.
