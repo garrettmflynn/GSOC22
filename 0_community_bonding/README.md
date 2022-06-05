@@ -1,6 +1,10 @@
 # Community Bonding Period
 **May 20 - June 12**
 
+## June 4th
+1. Played around with remote datasets. Ended up finding out how to modify files in the local filesystem, removing the need for zipping
+2. Created [freerange](https;//github.com/brainsatplay/freerange) library to hold generic file management code
+
 ## June 3rd
 1. Fixed download button text
 2. Renamed some keys to be compatible with the example HED artifact annotations sent by Tal.
