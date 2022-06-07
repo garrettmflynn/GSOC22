@@ -1,6 +1,14 @@
 # Community Bonding Period
 **May 20 - June 12**
 
+## June 7th
+1. Finished readings on HED
+
+## June 5th - June 6th
+1. Continued updating `freerange` and integrating it into GEN. 
+    - Now we can stream file changes directly into the user's filesystem from the browser!
+    - We can also host files remotely and, at least for EDF files, use range requests to get only the necessary data.
+
 ## June 4th
 1. Played around with remote datasets. Ended up finding out how to modify files in the local filesystem, removing the need for zipping
 2. Created [freerange](https;//github.com/brainsatplay/freerange) library to hold generic file management code
