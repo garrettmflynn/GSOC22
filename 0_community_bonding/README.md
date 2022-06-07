@@ -2,7 +2,14 @@
 **May 20 - June 12**
 
 ## June 7th
-1. Finished readings on HED
+1. Fixed hidden filesystem editor
+    - It was actually updating the main one...
+2. Fixed rendering Bosch's dataset
+    - Had to remove some broken autoBIDSing code that I'd written before.
+3. Fixed `freerange`
+    - Only write to files that have registered changes
+4. Finished more readings
+    - Started to implement some helper functions related to CuBIDS—though they may not be relevant to our primary work with EEG-BIDS
 
 ## June 5th - June 6th
 1. Continued updating `freerange` and integrating it into GEN. 
