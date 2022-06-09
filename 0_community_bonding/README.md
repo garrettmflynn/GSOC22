@@ -1,6 +1,19 @@
 # Community Bonding Period
 **May 20 - June 12**
 
+
+## June 8th
+Today, I focused on another contract—but, generally, you can now reliably get and create new files with `freerange`.
+
+### Weekly Meeting Notes
+- We will launch at the Congress (September 4–8) in a workshop
+- We are implementing a standardized crowdsourced test to see if the SCORE artifact schema is complete. 
+- We are making SCORE more usable by putting it into a FOSS software! Get more people involved in using it!
+- Look at annotations that other people have made (e.g. TUH corpus). What is their list?
+- Write to the BIDS Validator to expose HED library configuration
+- Create a list of functions specific to our aims from existing software platform
+
+
 ## June 7th
 1. Fixed hidden filesystem editor
     - It was actually updating the main one...
