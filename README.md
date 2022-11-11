@@ -1,18 +1,15 @@
-# gsoc
-Work Summary for Google Summer of Code 2022
+Work Summary for `An Open-Source Software Suite for EEG Artifact Annotation on Web Browsers` | Google Summer of Code 2022
 
-## An Open-Source Software Suite for EEG Artifact Annotation on Web Browsers
-
-### Summary
+## Summary
 From May 22nd to November 14th, I worked with [Jorge Bosch-Bayard](https://scholar.google.com/citations?user=-wVncXgAAAAJ&hl=en) and [Pedro Valdes-Sosa](https://scholar.google.com/citations?user=0M2PVJIAAAAJ&hl=en) from the[ Global Brain Consortium](https://globalbrainconsortium.org/) (GBC) to produce novel web-based annotation applications for the [Brain Imaging Data Structure](https://bids.neuroimaging.io/) (BIDS) under their [Global EEG Norms](https://globalbrainconsortium.org/project-norms.html) project.
 
-### Relevant Repositories
+## Relevant Repositories
 - [gen]
 - [anywave_hed]
 - [anywave_gen]
 - [AnyWave]
 
-### Actual Timeline
+## Actual Timeline
 Our initial work focused on the development of [gen]: a Progressive Web Application (PWA) for the annotation of EEG data on the browser. 
 
 In preparation for the [2022 International Congress of Clinical Neurophysiology](https://ifcn.site-ym.com/mpage/ICCN2022) (ICCN), however, we decided to leverage [AnyWave]—an existing annotation tool developed by Bruno Columbet and Christian Benar at the The Institut de Neurosciences des Systèmes (INS) in Marseille, France.
@@ -21,7 +18,7 @@ From July through November 2022, then, the GBC and INS teams closely collaborate
 
 Near the end of the project, I've also been put into contact with a trainee who will take over the majority of the work following the GSOC 2022 project period.
 
-### Outcomes
+## Outcomes
 All of the repos outside of [AnyWave] ([gen], [anywave_hed], [anywave_gen]) have been developed in the context of GSOC 2022 and are themselves an important outcome of the project.
 
 Following our presentation at the ICCN, we received positive feedback from the clinical neurophysiology community. In fact, Pedro was able to negotiate the establishment of a joint global project
@@ -40,7 +37,7 @@ While we have been able to prototype a working version of [anywave_gen], we have
 
 As such, the next steps for the project will be to continue to work with the AnyWave team to finalize the application and release it to the public. Once this is done, we will be able to release [anywave_gen] to the public—as well as update the [anywave_hed] plugin to support the latest version of AnyWave.
 
-### Reflections
+## Reflections
 Throughout this project, I've learned a lot about the challenges of working with large, distributed teams and the importance of clear communication and consensus-building before writing any code.
 
 I put much time into the development of [gen] at the early stages of the project, we collectively decided that our time would be best spent focusing on the distribution of AnyWave to clinical neurophysiologists—not on development of the application itself. As such, the majority of the development was outsourced to the INS team, while myself and my mentors focused on determining the appropriate integrations that we'd need to acheive our goals of simple distribution of AnyWave for the collection of huge amount of EEG annotations.
