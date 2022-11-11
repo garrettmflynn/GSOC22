@@ -1,6 +1,11 @@
-# Community Bonding Period
-**May 20 - June 12**
+# Early Notes
 
+## July 1st, 2022
+Restarted meetings with Pedro and Jorge
+- Reached out to the AnyWave team
+- Coordinated a meeting with the main interface with clinical neurophysiologists in Cuba
+- Decided we needed to specify requirements collaboratively with other groups before moving forward
+- Learned that EEGNet no longer has their only software engineer...
 
 ## June 8th
 Today, I focused on another contract—but, generally, you can now reliably get and create new files with `freerange`.
